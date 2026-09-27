@@ -8,7 +8,7 @@ import (
 	"github.com/actionplatform/web-go-gin/internal/services"
 )
 
-const Version = "0.4.2"
+const Version = "0.1.0"
 
 const APIV1Prefix = "/api/v1"
 

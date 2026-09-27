@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    image: web-go-gin:local
+    ports:
+      - "8000:8000"
+    environment:
+      SCOPE: development
+    restart: unless-stopped

@@ -1,0 +1,18 @@
+[project]
+name = "web-go-gin"
+type = "web"
+stack = "go"
+template = "gin"
+ci = "github"
+language = "go"
+
+[source_host]
+kind = "github"
+repo = "actionplatform/web-go-gin"
+
+[release]
+strategy = "semver"
+changelog = "conventional"
+
+[deploy]
+target = "dokploy"
